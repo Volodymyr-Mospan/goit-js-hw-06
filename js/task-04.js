@@ -1,5 +1,5 @@
 const decrementBtn = document.querySelector('button[data-action="decrement"]');
-const valueRef = document.querySelector('#value');
+const valueRef = document.querySelector('span#value');
 const incrementBtn = document.querySelector('button[data-action="increment"]');
 
 decrementBtn.addEventListener('click', () => (valueRef.textContent -= 1));

@@ -1,7 +1,6 @@
 const liItemsRef = document.querySelectorAll('.item');
 
 console.log(`Number of categories: ${liItemsRef.length}`);
-// console.log(liItemsRef);
 
 liItemsRef.forEach(li => {
   console.log(`Category: ${li.firstElementChild.textContent}`);
